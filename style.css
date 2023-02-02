@@ -23,30 +23,27 @@ main {
 
 
 .logo {
-    width: 340px;
+    width: 334px;
     height: 200px;
-}
-
-.logo {
     border-radius: 8px 8px 0 0;
 }
 
+
 section {
-    width: 340px;
+    width: 334px;
     height: 330px;
-    background: white;
+    
     border-radius: 8px;
 }
 
 
 
 .txt {
-    margin-top: -4px;
+    margin-top: -6px;
     padding-top: 10px;
     padding-left: 40px;
-    width: 300px;
-    height: 100px;
-    
+    width: 334px;
+    height: 125px;
     border-radius: 0 0 8px 8px;
     background: white;
 }
@@ -113,6 +110,27 @@ button:hover {
     background-color: rgb(12, 71, 148);
 }
 
+
+.checkbox-wraper  {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+#aceito {
+    width: 21px;
+    height: 20px;
+}
+
+
+
+.checkbox-wraper label  {
+    margin-left: 20px;
+}
+
+
+
 @media (min-width: 700px) {
     
   main {
@@ -146,6 +164,8 @@ button:hover {
     width: 460px;
     height: 460px;
   }
+
+ 
 
   .logo {
     max-width: 240px;
