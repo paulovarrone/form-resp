@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/cadastro.png" type="image/x-icon">
+
+
+</head>
+<body>
+    
+    <main>
+
+        <section>
+                <img class="logo" src="./img/logo.png" alt="IMAGEM LOGO">
+                <div class="txt">
+                    <h2>
+                        Solicitação
+                    </h2>
+    
+                    <p>
+                        Preencha as informações do formulário para encaminhar sua solicitação.
+                    </p>
+
+                </div>
+                
+        </section>
+
+        <form id="my-form">
+            <fieldset>
+
+                <div class="input-wraper">
+                    <label for="nome">*Nome do solicitante</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="input-wraper">
+                    <label for="email">*E-mail do solicitante</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="input-wraper">
+                    <label for="descrição">Descrição</label>
+                    <textarea name="descrição" id="descrição"></textarea>
+                </div>
+
+                <div class="input-wraper">
+                    <label for="anexos">Anexos</label>
+                    <input type="file" name="anexos" id="anexos" required>
+                </div>
+                
+                <button type="submit">Enviar</button>
+
+
+
+            </fieldset>
+       
+       
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
